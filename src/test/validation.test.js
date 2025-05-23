@@ -1,4 +1,4 @@
-
+import { isCartItem } from '../validation.js';
 
 test('ska returnera false om id inte är ett nummer', () => {
   // Arrange
